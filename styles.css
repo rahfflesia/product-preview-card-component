@@ -130,6 +130,11 @@ button {
   position: absolute;
 }
 
+.add-to-cart:hover,
+.add-to-cart:focus {
+  background-color: var(--green-700);
+}
+
 @media (width >= 40rem) {
   .product-preview {
     flex-direction: row;
